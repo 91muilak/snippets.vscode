@@ -1,2 +1,1 @@
-# rx1310-kalium19-snippets README
-soon...
+# Snippets for Kalium19
