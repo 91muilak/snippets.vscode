@@ -1,41 +1,42 @@
 {
-    "name": "rx1310-kalium19-snippets",
-    "displayName": "Kalium19 Snippets",
-    "description": "Lorem ipsum",
-    "version": "0.0.1",
-    "publisher": "rx1310",
-    "author": "Haba Kudzaev",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.69.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "SASS",
-        "SCSS",
-        "Kalium19",
-        "Snippets",
-        "rx1310"
-    ],
-    "repository": {
+	"name": "kalium19-snippets",
+	"displayName": "Kalium19: Snippets",
+	"description": "Расширение, позволяющее ускорить написание стилей на языке CSS-препроцессора SASS с использованием пакета Kalium19.",
+	"version": "0.0.1",
+	"publisher": "rx1310",
+	"author": "Haba Kudzaev",
+	"icon": ".github/logo.png",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.69.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"SASS",
+		"SCSS",
+		"Kalium19",
+		"Snippets",
+		"rx1310"
+	],
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/91muilak/snippets.vscode.git"
 	},
 	"bugs": {
 		"url": "https://github.com/91muilak/snippets.vscode/issues"
 	},
-    "contributes": {
-        "snippets": [
-            {
-                "language": "scss",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    },
-    "scripts": {
+	"contributes": {
+		"snippets": [
+			{
+				"language": "scss",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"scripts": {
 		"publish": "vsce publish",
-        "package": "vsce package"
+		"package": "vsce package"
 	}
 }
