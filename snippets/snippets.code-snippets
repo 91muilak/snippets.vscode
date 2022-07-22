@@ -15,4 +15,9 @@
 		"prefix": "k19/animation-direction",
 		"body": "@include animation-direction(${1|normal,alternate,reverse,alternate-reverse|});"
 	},
+
+	"сгенерировать свойство animation-duration с префиксами": {
+		"prefix": "k19/animation-duration",
+		"body": "@include animation-duration(${1:время}s);"
+	},
 }
