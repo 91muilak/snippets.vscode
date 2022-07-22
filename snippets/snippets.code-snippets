@@ -1,7 +1,14 @@
 {
+
 	"сгенерировать свойство с префиксами": {
-		"prefix": "prefixer",
+		"prefix": "k19/prefixer",
 		"body": "@include prefixer(${1:свойство}, ${2:значение}, ${3:список префиксов});",
 		"description": "Миксин prefixer() позволяет сгенерировать CSS-свойство с нужными браузерными префиксами."
-	}
+	},
+
+	"сгенерировать свойство animation-delay с префиксами": {
+		"prefix": "k19/animation-delay",
+		"body": "@include animation-delay(${1:время}s);"
+	},
+
 }
