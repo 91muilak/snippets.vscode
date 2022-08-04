@@ -20,4 +20,29 @@
 		"prefix": "k19/animation-duration",
 		"body": "@include animation-duration(${1:время}s);"
 	},
+
+	"сгенерировать свойство animation с префиксами": {
+		"prefix": "k19/animation",
+		"body": "@include animation(${1:параметры});"
+	},
+
+	"сгенерировать свойство animation-iteration-count с префиксами": {
+		"prefix": "k19/animation",
+		"body": "@include animation-iteration-count(${1:значение});"
+	},
+
+	"сгенерировать свойство animation-name с префиксами": {
+		"prefix": "k19/animation",
+		"body": "@include animation-name(${1:имя});"
+	},
+
+	"сгенерировать свойство animation-play-state с префиксами": {
+		"prefix": "k19/animation",
+		"body": "@include animation-play-state(${1|running,paused|});"
+	},
+
+	"сгенерировать свойство animation-timing-function с префиксами": {
+		"prefix": "k19/animation",
+		"body": "@include animation-timing-function(${1|ease,ease-in,ease-out,ease-in-out,linear,step-start,step-end,steps,cubic-bezier|});"
+	},
 }
