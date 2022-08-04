@@ -35,6 +35,9 @@
 			},{
 				"language": "scss",
 				"path": "./snippets/prefixer.code-snippets"
+			},{
+				"language": "scss",
+				"path": "./snippets/other.code-snippets"
 			}
 		]
 	},
